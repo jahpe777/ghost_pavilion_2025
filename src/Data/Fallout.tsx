@@ -1,0 +1,23 @@
+const fallout = [
+  `The world must come together to confront climate change. There is little scientific dispute that if we do nothing, we will face more drought, famine and mass displacement that will fuel more conflict for decades.`,
+  `When the well is dry, we know the worth of water.`,
+  `Preservation of our environment is not a liberal or conservative challenge, it's common sense.`,
+  `Earth provides enough to satisfy every man's need, but not every man's greed.`,
+  `On climate change, we often don't fully appreciate that it is a problem. We think it is a problem waiting to happen.`,
+  `We simply must do everything we can in our power to slow down global warming before it is too late... The science is clear. The global warming debate is over.`,
+  `If you really think that the environment is less important than the economy, try holding your breath while you count your money.`,
+  `It’s important for me to have hope because that’s my job as a parent, to have hope, for my kids, that we’re not going to leave them in a world that’s in shambles, that’s a chaotic place, that’s a dangerous place.`,
+  `To all of you who choose to look the other way every day because you seem more frightened of the changes that can prevent catastrophic climate change than the catastrophic climate change itself. Your silence is worst of all.`,
+  `Climate change isn't something people get to choose to believe or not: it's happening.`,
+  `What is the use of a house if you haven't got a tolerable planet to put it on?`,
+  `Climate change is the greatest threat to our existence in our short history on this planet. Nobody’s going to buy their way out of its effects.`,
+  `It’s not climate change that needs to be tackled. It is the political power of the fossil fuel industry.`,
+  `The less we do to address climate change now, the more regulation we will have in the future.`,
+  `We are in danger of destroying ourselves by our greed and stupidity. We cannot remain looking inwards at ourselves on a small and increasingly polluted and overcrowded planet.`,
+  `Global warming is too serious for the world any longer to ignore its danger or split into opposing factions on it.`,
+  `We are running the most dangerous experiment in history right now, which is to see how much carbon dioxide the atmosphere can handle before there is an environmental catastrophe.`,
+  `I hold a vision of this blue green planet, safe and in balance. At the end of the Fossil Fuel Era, we are emerging to a new reality. We are ready to make the next leap – as momentous as abolishing slavery or giving women the vote.`,
+  `By polluting the oceans, not mitigating CO2 emissions and destroying our biodiversity, we are killing our planet. Let us face it, there is no planet B.`,
+  `We don’t have time to sit on our hands as our planet burns. For young people, climate change is bigger than election or re-election. It’s life or death.`,
+];
+export default fallout;

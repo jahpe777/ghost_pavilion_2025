@@ -1,0 +1,23 @@
+const stillOnIce = [
+  `Nothing is ever really lost to us as long as we remember it.`,
+  `Take care of all your memories. For you cannot relive them.`,
+  `A million feelings. A thousand thoughts. A hundred memories. All for one person.`,
+  `Good bye may seem forever. Farewell is like the end, but in my heart is the memory and there you will always be.`,
+  `Never let your memories be greater than your dreams.`,
+  `The greatest legacy we can leave our children is happy memories.`,
+  `I am hopelessly in love with a memory. An echo from another time, another place.`,
+  `Remembrance of things past is not necessarily the remembrance of things as they were.`,
+  `Without memory, there is no healing. Without forgiveness, there is no future.`,
+  `Your memory is a monster; it summons with will of its own. You think you have a memory, but it has you.`,
+  `Nostalgia is also a dangerous form of comparison. Think about how often we compare our lives to a memory that nostalgia has so completely edited that it never really existed.`,
+  `The butterfly counts not months but moments, and has time enough.`,
+  `Lost love is still love. It takes a different form, that’s all. You can’t see their smile or bring them food or tousle their hair or move them around a dance floor. But when those senses weaken another heightens. Memory. Memory becomes your partner. You nurture it. You hold it. You dance with it.`,
+  `Sometimes you never know the value of a moment until it becomes a memory.`,
+  `What I like about photographs is that they capture a moment that’s gone forever, impossible to reproduce.`,
+  `You can close your eyes to reality but not to memories.`,
+  `We do not remember days, we remember moments.`,
+  `That’s the problem with memories, you can visit them, but you can’t live in them.`,
+  `Scars have the strange power to remind us that our past is real.`,
+  `When you are gone, the only truly important thing you will leave behind are the memories you’ve created. How do you want to be remembered?`,
+];
+export default stillOnIce;

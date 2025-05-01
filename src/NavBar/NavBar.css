@@ -1,0 +1,40 @@
+h1 {
+  font-size: 40px;
+  margin: 3px 0px;
+  font-weight: normal;
+}
+
+section.navbar {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.navlinks {
+  list-style: none;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.nav-li {
+  display: inline;
+  padding: 20px;
+}
+
+a {
+  /* color: red; */
+  color: white;
+}
+
+a:hover {
+  /* color: #b3fcc4; */
+  color: purple;
+}
+
+@media screen and (max-width: 767px) {
+  section.navbar {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,23 @@
+const allAlong = [
+  `The universe is a pretty big place. If it’s just us, seems like an awful waste of space.`,
+  `The universe seems neither benign nor hostile, merely indifferent.`,
+  `The universe is not required to be in perfect harmony with human ambition.`,
+  `I’m sure the universe is full of intelligent life. It’s just been too intelligent to come here.`,
+  `To confine our attention to terrestrial matters would be to limit the human spirit.`,
+  `In this single galaxy of ours there are eighty-seven thousand million suns.`,
+  `There are no passengers on spaceship earth. We are all crew.`,
+  `The Universe is under no obligation to make sense to you.`,
+  `The Earth is the cradle of humanity, but mankind cannot stay in the cradle forever.`,
+  `I don't think the human race will survive the next thousand years, unless we spread into space. There are too many accidents that can befall life on a single planet. But I'm an optimist. We will reach out to the stars.`,
+  `We cannot predict the new forces, powers, and discoveries that will be disclosed to us when we reach the other planets and set up new laboratories in space. They are as much beyond our vision today as fire or electricity would be beyond the imagination of a fish.`,
+  `The time will come when man will know even what is going on in the other planets and perhaps be able to visit them.`,
+  `We are the light that travels into space.`,
+  `There are so many problems to solve on this planet first before we begin to trash other worlds.`,
+  `It suddenly struck me that that tiny pea, pretty and blue, was the Earth. I put up my thumb and shut one eye, and my thumb blotted out the planet Earth. I didn't feel like a giant. I felt very, very small.`,
+  `Mystery creates wonder and wonder is the basis of man’s desire to understand.`,
+  `The Earth was small, light blue, and so touchingly alone, our home that must be defended like a holy relic.`,
+  `We are limited only by our imagination and our will to act.`,
+  `Earth is a small town with many neighborhoods in a very big universe.`,
+  `I really believe that if the political leaders of the world could see their planet from a distance of, let’s say 100,000 miles, their outlook would be fundamentally changed. The all-important border would be invisible; that noisy argument suddenly silenced.`,
+];
+export default allAlong;

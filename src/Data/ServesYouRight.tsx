@@ -1,0 +1,23 @@
+const servesYouRight = [
+  `A riot is the language of the unheard.`,
+  `It’s important for us to also understand that the phrase 'Black Lives Matter' simply refers to the notion that there’s a specific vulnerability for African Americans that needs to be addressed. It's not meant to suggest that other lives don’t matter. It’s to suggest that other folks aren’t experiencing this particular vulnerability.`,
+  `It's up to all of us — Black, white, everyone — no matter how well-meaning we think we might be, to do the honest, uncomfortable work of rooting it out.`,
+  `You can't separate peace from freedom because no one can be at peace unless he has his freedom.`,
+  `Struggle is a never ending process. Freedom is never really won, you earn it and win it in every generation.`,
+  `If you are neutral in situations of injustice, you have chosen the side of the oppressor.`,
+  `Racism is not getting worse, it's getting filmed.`,
+  `In a racist society it is not enough to be non-racist, we must be anti-racist.`,
+  `White feelings should never be held in higher regard than black lives.`,
+  `It is certain, in any case, that ignorance, allied with power, is the most ferocious enemy justice can have.`,
+  `The beauty of anti-racism is that you don't have to pretend to be free of racism to be an anti-racist. Anti-racism is the commitment to fight racism wherever you find it, including in yourself.`,
+  `No one is born hating another person because of the color of his skin, or his background, or his religion. People must learn to hate, and if they can learn to hate, they can be taught to love, for love comes more naturally to the human heart than its opposite.`,
+  `We don't want to see Targets burning. We want to see the system that sets up for systemic racism burned to the ground.`,
+  `Enough is enough! What will it take? A civil war? A new president? Violent riots? It's tired. I'm tired. The country is tired! You don't put fear in people when you do this, you just show how coward[ly] you are – and how America is really not the land of the free.`,
+  `It is never too late to give up your prejudices.`,
+  `It is white people's responsibility to be less fragile; people of color don’t need to twist themselves into knots trying to navigate us as painlessly as possible.`,
+  `We have a right to protest for what is right. That's all we can do. There are people hurting, there are people suffering, so we have an obligation, a mandate, to do something.`,
+  `George Floyd's murder is not only an outrage. It is the latest manifestation of a system that callously devalues the lives of Black people.`,
+  `You cannot shake hands with a clenched fist.`,
+  `If you want to make peace, you don't talk to your friends. You talk to your enemies.`,
+];
+export default servesYouRight;

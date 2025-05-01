@@ -1,0 +1,23 @@
+const lastSeason = [
+  `I think if this country gets any kinder or gentler, it's literally going to cease to exist.`,
+  `We're rounding 'em up in a very humane way, in a very nice way. And they're going to be happy because they want to be legalized. And, by the way, I know it doesn't sound nice. But not everything is nice.`,
+  `I will build a great, great wall on our southern border, and I will have Mexico pay for that wall. Mark my words.`,
+  `I think I could have stopped it because I have very tough illegal immigration policies, and people aren't coming into this country unless they're vetted and vetted properly.`,
+  `It's really cold outside, they are calling it a major freeze, weeks ahead of normal. Man, we could use a big fat dose of global warming!`,
+  `No matter what you do - guns, no guns - it doesn't matter. You have people that are mentally ill. And they're gonna come through the cracks. And they're going to do things that people will not even believe are possible.`,
+  `Our country is in serious trouble. We don't have victories any more. We used to have victories but [now] we don't have them. When was the last time anybody saw us beating, let's say, China, in a trade deal? They kill us. I beat China all the time. All the time.`,
+  `They're bringing drugs. They're bringing crime. They're rapists. And some, I assume, are good people.`,
+  `When you see the other side chopping off heads, waterboarding doesn't sound very severe.`,
+  `The concept of global warming was created by and for the Chinese in order to make U.S. manufacturing non-competitive.`,
+  `To be blunt, people would vote for me. They just would. Why? Maybe because I'm so good looking.`,
+  `If Hillary Clinton can't satisfy her husband what makes her think she can satisfy America?`,
+  `If you look at Saddam Hussein, he killed terrorists. I'm not saying he was an angel, but this guy killed terrorists.`,
+  `I never attacked him on his looks, and believe me, there's plenty of subject matter right there.`,
+  `I'm the most successful person ever to run. Ross Perot isn't successful like me. Romney - I have a Gucci store that's worth more than Romney.`,
+  `I fully understand why her former husband left her for a man - he made a good decision.`,
+  `I look very much forward to showing my financials, because they are huge.`,
+  `Sorry losers and haters, but my IQ is one of the highest - and you all know it! Please don't feel so stupid or insecure, it's not your fault.`,
+  `Certain guys tell me they want women of substance, not beautiful models. It just means they can't get beautiful models.`,
+  `Show me someone with no ego and I'll show you a big loser.`,
+];
+export default lastSeason;

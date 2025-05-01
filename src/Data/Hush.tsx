@@ -1,0 +1,23 @@
+const hush = [
+  `Love has nothing to do with what you are expecting to get–only with what you are expecting to give–which is everything.`,
+  `Where there is love there is life.`,
+  `Whatever our souls are made of, his and mine are the same.`,
+  `It is a curious thought, but it is only when you see people looking ridiculous that you realize just how much you love them.`,
+  `The greatest happiness of life is the conviction that we are loved; loved for ourselves, or rather, loved in spite of ourselves.`,
+  `In love there are two things– bodies and words.`,
+  `Love makes your soul crawl out from its hiding place.`,
+  `There is always madness in love. But there is also always some reason in madness.`,
+  `Nobody has ever measured, even poets, how much a heart can hold.`,
+  `Have enough courage to trust love one more time and always one more time.`,
+  `Love does not consist in gazing at each other, but in looking outward together in the same direction."`,
+  `Love is a fire. But whether it is going to warm your hearth or burn down your house, you can never tell.`,
+  `I love her and it is the beginning of everything.`,
+  `When you realize you want to spend the rest of your life with somebody, you want the rest of your life to start as soon as possible.`,
+  `Never love anyone who treats you like you're ordinary.`,
+  `Lots of people want to ride with you in the limo, but what you want is someone who will take the bus with you when the limo breaks down.`,
+  `Love is something sent from heaven to worry the hell out of you.`,
+  `Love is an irresistible desire to be irresistibly desired.`,
+  `The giving of love is an education in itself.`,
+  `Life is the flower for which love is the honey.`,
+];
+export default hush;

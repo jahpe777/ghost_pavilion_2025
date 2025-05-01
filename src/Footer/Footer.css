@@ -1,0 +1,30 @@
+.footer {
+  padding: 20px;
+}
+
+.links {
+  list-style-type: none;
+  padding: 0;
+}
+
+.links li {
+  display: inline;
+  padding: 20px;
+}
+
+.icons {
+  height: 30px;
+  width: 30px;
+  opacity: 0.5;
+}
+
+.icons:hover {
+  opacity: 1;
+}
+
+@media screen and (max-width: 415px) {
+  .icons {
+    height: 30px;
+    width: 30px;
+  }
+}
