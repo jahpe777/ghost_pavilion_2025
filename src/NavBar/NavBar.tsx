@@ -1,26 +1,53 @@
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
 import "./NavBar.css";
 
 const NavBar = () => {
   return (
-    <section className="navbar">
-      <h1 className="ghost-pavilion-home">
-        <Link to="/">Ghost Pavilion 2025</Link>
-      </h1>
+    <motion.section
+      className="navbar"
+      initial={{ y: -60, opacity: 0 }}
+      animate={{ y: 0, opacity: 1 }}
+      transition={{ duration: 0.8 }}
+    >
+      <motion.h1
+        className="ghost-pavilion-home"
+        whileHover={{ scale: 1.025, opacity: 1 }}
+        initial={{ opacity: 0.7 }}
+        transition={{ type: "spring", stiffness: 300 }}
+      >
+        <Link to="/">Ghost Pavilion</Link>
+      </motion.h1>
+
       <nav>
         <ul className="navlinks">
-          <li className="nav-li">
+          <motion.li
+            className="nav-li"
+            whileHover={{ scale: 1.2, opacity: 1 }}
+            initial={{ opacity: 0.7 }}
+            transition={{ type: "spring", stiffness: 300 }}
+          >
             <Link to="/watch">Watch</Link>
-          </li>
-          <li className="nav-li">
+          </motion.li>
+          <motion.li
+            className="nav-li"
+            whileHover={{ scale: 1.2, opacity: 1 }}
+            initial={{ opacity: 0.7 }}
+            transition={{ type: "spring", stiffness: 300 }}
+          >
             <Link to="/listen">Listen</Link>
-          </li>
-          <li className="nav-li">
+          </motion.li>
+          <motion.li
+            className="nav-li"
+            whileHover={{ scale: 1.2, opacity: 1 }}
+            initial={{ opacity: 0.7 }}
+            transition={{ type: "spring", stiffness: 300 }}
+          >
             <Link to="/speak">Speak</Link>
-          </li>
+          </motion.li>
         </ul>
       </nav>
-    </section>
+    </motion.section>
   );
 };
 

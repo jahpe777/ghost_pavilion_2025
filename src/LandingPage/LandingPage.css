@@ -14,13 +14,9 @@ img {
   max-width: 700px;
 }
 
-img:hover {
-  /* -moz-box-shadow: 0 0 1000px #f81a17;
-  -webkit-box-shadow: 0 0 1000px #f81a17;
-  box-shadow: 0 0 1000px #f81a17; */
-  -moz-box-shadow: 0 0 1000px white;
-  -webkit-box-shadow: 0 0 1000px white;
-  box-shadow: 0 0 1000px white;
+.landingpage {
+  background: transparent;
+  overflow: hidden;
 }
 
 .landingpage-video {
@@ -38,6 +34,37 @@ img:hover {
   position: fixed;
   z-index: -1;
   width: 100%;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  background: repeating-conic-gradient(
+    from 0deg,
+    rgba(255, 0, 255, 0.04) 0deg 30deg,
+    rgba(255, 51, 0, 0.04) 30deg 60deg,
+    rgba(255, 128, 0, 0.04) 60deg 90deg
+  );
+  animation: spinTrippy 30s linear infinite;
+  mix-blend-mode: screen;
+  opacity: 0.4;
+}
+
+@keyframes spinTrippy {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+  50% {
+    transform: rotate(180deg) scale(1.2);
+  }
+  100% {
+    transform: rotate(360deg) scale(1);
+  }
 }
 
 @media screen and (max-width: 415px) {

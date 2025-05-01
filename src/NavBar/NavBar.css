@@ -19,18 +19,19 @@ section.navbar {
 }
 
 .nav-li {
-  display: inline;
+  display: inline-block;
   padding: 20px;
 }
 
 a {
-  /* color: red; */
   color: white;
+  text-decoration: none;
 }
 
 a:hover {
-  /* color: #b3fcc4; */
-  color: purple;
+  color: #ff6600;
+  text-shadow: 0 0 10px #000, 0 0 15px #ff6600;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
 }
 
 @media screen and (max-width: 767px) {

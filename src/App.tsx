@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom";
-
+import { AnimatePresence } from "framer-motion";
 import Favicon from "react-favicon";
 
 import "./App.css";
@@ -21,12 +21,14 @@ const App = () => {
         </Routes>
       </header>
       <main className="Header">
-        <Routes>
-          <Route path="/" element={<LandingPage />} />
-          <Route path="/watch" element={<WatchPage />} />
-          <Route path="/listen" element={<ListenPage />} />
-          <Route path="/speak" element={<SpeakPage />} />
-        </Routes>
+        <AnimatePresence mode="wait">
+          <Routes>
+            <Route path="/" element={<LandingPage />} />
+            <Route path="/watch" element={<WatchPage />} />
+            <Route path="/listen" element={<ListenPage />} />
+            <Route path="/speak" element={<SpeakPage />} />
+          </Routes>
+        </AnimatePresence>
       </main>
       <footer>
         <Routes>
