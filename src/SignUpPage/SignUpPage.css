@@ -1,0 +1,39 @@
+.signup-page {
+  text-align: center;
+  padding: 2rem;
+  color: white;
+}
+
+.signup-page form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.signup-page input {
+  margin: 0.5rem 0;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+}
+
+.signup-page button {
+  padding: 0.75rem;
+  font-size: 1rem;
+  background-color: #ff6600;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.signup-page .success-msg {
+  color: #4caf50;
+  font-weight: bold;
+}
+
+.signup-page .error-msg {
+  color: #ff4d4f;
+}

@@ -37,13 +37,21 @@ const NavBar = () => {
           >
             <Link to="/listen">Listen</Link>
           </motion.li>
-          <motion.li
+          {/* <motion.li
             className="nav-li"
             whileHover={{ scale: 1.2, opacity: 1 }}
             initial={{ opacity: 0.7 }}
             transition={{ type: "spring", stiffness: 300 }}
           >
             <Link to="/speak">Speak</Link>
+          </motion.li> */}
+          <motion.li
+            className="nav-li"
+            whileHover={{ scale: 1.2, opacity: 1 }}
+            initial={{ opacity: 0.7 }}
+            transition={{ type: "spring", stiffness: 300 }}
+          >
+            <Link to="/signup">Sign Up</Link>
           </motion.li>
         </ul>
       </nav>
