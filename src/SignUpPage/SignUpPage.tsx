@@ -32,6 +32,9 @@ const SignUpPage = () => {
   return (
     <section className="signup-page">
       <h2>Join the Ghost Pavilion Mailing List</h2>
+      <p className="signup-subtext">
+        Get notified about exclusive content, merch, and event drops
+      </p>
       {success && <p className="success-msg">Thank you for signing up!</p>}
       {error && <p className="error-msg">{error}</p>}
       <form onSubmit={handleSubmit}>

@@ -20,13 +20,13 @@ const LandingPage = () => {
 
       <motion.section
         className="image-landingpage"
-        initial={{ scale: 0.5, rotate: -15, opacity: 0 }}
-        animate={{ scale: 1, rotate: 0, opacity: 1 }}
+        initial={{ scale: 0.5, opacity: 0 }}
+        animate={{ scale: 1, opacity: 1 }}
         transition={{ duration: 1.5, ease: "easeOut" }}
         whileHover={{
-          scale: 1.05,
-          rotate: [0, 3, -3, 3, 0],
-          transition: { duration: 0.6 },
+          scale: 1.03,
+          filter: "drop-shadow(0 0 10px #ff00ff)",
+          transition: { duration: 0.5, ease: "easeInOut" },
         }}
       >
         <a
@@ -38,9 +38,6 @@ const LandingPage = () => {
             src={image}
             alt="Ghost Pavilion Logo"
             className="gp-logo"
-            whileHover={{
-              boxShadow: "0px 0px 40px 15px magenta",
-            }}
           />
         </a>
       </motion.section>

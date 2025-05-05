@@ -1,13 +1,17 @@
-h1 {
-  font-size: 40px;
-  margin: 3px 0px;
-  font-weight: normal;
-}
-
-section.navbar {
+.navbar {
   display: flex;
   padding: 10px;
   justify-content: space-between;
+  align-items: center;
+}
+
+.ghost-title {
+  font-family: "Nabla", cursive;
+  font-size: 40px;
+  margin: 3px 0px;
+  font-weight: normal;
+  letter-spacing: 2px;
+  text-shadow: 0 0 12px magenta;
 }
 
 .navlinks {
@@ -35,7 +39,7 @@ a:hover {
 }
 
 @media screen and (max-width: 767px) {
-  section.navbar {
+  .navbar {
     flex-direction: column;
     align-items: center;
   }
@@ -51,7 +55,7 @@ a:hover {
     padding: 10px;
   }
 
-  h1 {
+  .ghost-title {
     font-size: 28px;
     text-align: center;
   }
