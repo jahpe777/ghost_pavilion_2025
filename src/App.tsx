@@ -9,7 +9,6 @@ import Footer from "./Footer/Footer";
 import LandingPage from "./LandingPage/LandingPage";
 import WatchPage from "./WatchPage/WatchPage";
 import ListenPage from "./ListenPage/ListenPage";
-import SpeakPage from "./SpeakPage/SpeakPage";
 import SignUpPage from "./SignUpPage/SignUpPage";
 
 const App = () => {
@@ -27,7 +26,6 @@ const App = () => {
             <Route path="/" element={<LandingPage />} />
             <Route path="/watch" element={<WatchPage />} />
             <Route path="/listen" element={<ListenPage />} />
-            <Route path="/speak" element={<SpeakPage />} />
             <Route path="/signup" element={<SignUpPage />} />
           </Routes>
         </AnimatePresence>
