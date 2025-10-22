@@ -1,0 +1,121 @@
+div {
+  font-size: 22px;
+  padding: 0;
+  /* color: #f81a17; */
+  color: white;
+  font-family: "Fugue", verdana;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+img {
+  margin: 30px auto;
+  width: 90%;
+  max-width: 700px;
+}
+
+.landingpage {
+  background: transparent;
+  overflow: hidden;
+}
+
+.landingpage-video {
+  position: absolute;
+  width: "100%";
+  height: "100%";
+  left: 50%;
+  top: 50%;
+  object-fit: cover;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+#video {
+  position: fixed;
+  z-index: -1;
+  width: 100%;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  background: repeating-conic-gradient(
+    from 0deg,
+    rgba(255, 0, 255, 0.04) 0deg 30deg,
+    rgba(255, 51, 0, 0.04) 30deg 60deg,
+    rgba(255, 128, 0, 0.04) 60deg 90deg
+  );
+  animation: spinTrippy 30s linear infinite;
+  mix-blend-mode: screen;
+  opacity: 0.4;
+}
+
+@keyframes spinTrippy {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+  50% {
+    transform: rotate(180deg) scale(1.2);
+  }
+  100% {
+    transform: rotate(360deg) scale(1);
+  }
+}
+
+.listen-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  z-index: 10;
+}
+
+.listen-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.listen-now-button {
+  display: inline-block;
+  padding: 15px 40px;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: white;
+  background-color: #ff6600;
+  border: 2px solid #ff6600;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  box-shadow: 0 0 15px rgba(255, 102, 0, 0.5);
+  margin-bottom: 20px;
+}
+
+.listen-now-button:hover {
+  background-color: #ff8533;
+  border-color: #ff8533;
+}
+
+@media screen and (max-width: 415px) {
+  img {
+    width: 100%;
+  }
+
+  .listen-container {
+    margin-top: 10px;
+  }
+
+  .listen-now-button {
+    font-size: 16px;
+    padding: 12px 30px;
+  }
+}
