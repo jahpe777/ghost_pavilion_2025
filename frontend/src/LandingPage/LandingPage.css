@@ -9,14 +9,19 @@ div {
 }
 
 img {
-  margin: 30px auto;
-  width: 90%;
-  max-width: 700px;
+  margin: 20px auto;
+  width: 80%;
+  max-width: 600px;
 }
 
 .landingpage {
   background: transparent;
   overflow: hidden;
+  min-height: calc(100vh - 200px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 40px;
 }
 
 .landingpage-video {
