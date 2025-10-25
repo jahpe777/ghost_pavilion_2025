@@ -1,6 +1,5 @@
 import { Route, Routes } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
-import Favicon from "react-favicon";
 
 import "./App.css";
 
@@ -14,7 +13,6 @@ import SignUpPage from "./SignUpPage/SignUpPage";
 const App = () => {
   return (
     <div className="App">
-      <Favicon url="https://f4.bcbits.com/img/0003430782_10.jpg"></Favicon>
       <header className="App-Header">
         <Routes>
           <Route path="/*" element={<NavBar />} />
