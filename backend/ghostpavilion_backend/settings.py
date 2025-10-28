@@ -1,13 +1,14 @@
 import os
 from pathlib import Path
+import dj_database_url
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-SECRET_KEY = "django-insecure-@e61b5qbw54+e3s28)&=yr$x2=(-*m(%34r99%-c*q!7)+f9a("
+SECRET_KEY = os.getenv('DJANGO_SECRET_KEY', "django-insecure-@e61b5qbw54+e3s28)&=yr$x2=(-*m(%34r99%-c*q!7)+f9a(")
 
-DEBUG = True
+DEBUG = os.getenv('DEBUG', 'False') == 'True'
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS', 'localhost,127.0.0.1').split(',')
 
 INSTALLED_APPS = [
     "django.contrib.admin",
@@ -52,14 +53,10 @@ TEMPLATES = [
 WSGI_APPLICATION = "ghostpavilion_backend.wsgi.application"
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'ghostpavilion_db',
-        'USER': 'jameshiggs',
-        'PASSWORD': 'Theside!12345',
-        'HOST': 'localhost',
-        'PORT': '5432',
-    }
+    'default': dj_database_url.config(
+        default='postgresql://jameshiggs:Theside!12345@localhost:5432/ghostpavilion_db',
+        conn_max_age=600
+    )
 }
 
 AUTH_PASSWORD_VALIDATORS = [
@@ -91,6 +88,8 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
+    "https://ghostpavilion.com",
+    "https://www.ghostpavilion.com",
 ]
 
 SENDGRID_API_KEY = os.getenv('SENDGRID_API_KEY')
