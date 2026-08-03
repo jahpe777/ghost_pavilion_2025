@@ -258,7 +258,8 @@ class SendMassEmailView(View):
           <p style="margin:0 0 25px 0;text-align:center;">
             <a href="{listen_url}" style="display:inline-block;background-color:#111111;color:#ffffff;padding:14px 40px;font-size:14px;font-weight:bold;text-decoration:none;border-radius:4px;letter-spacing:2px;text-transform:uppercase;font-family:Verdana,Arial,sans-serif;">LISTEN NOW</a>
           </p>
-          <p style="margin:0 0 25px 0;">I am also going back through older videos and giving them a proper push. There is music I have made that deserves a wider audience than it got the first time around. I will be sharing those with you over the coming weeks. Keep an eye out.</p>
+          <p style="margin:0 0 25px 0;">I am also going back through older videos and giving them a proper push. I will be sharing those with you over the coming weeks. Keep an eye out.</p>
+          <p style="margin:0 0 25px 0;">You will receive another email from me on Friday with the video link. Watch for it.</p>
           <p style="margin:0;">Thank you for being here.</p>
         </td></tr>
         <tr><td style="padding:30px;text-align:center;background-color:#ebebeb;border-top:2px solid #111111;">
