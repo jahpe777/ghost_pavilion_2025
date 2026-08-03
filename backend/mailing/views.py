@@ -207,6 +207,7 @@ class SendMassEmailView(View):
         subscribers = SignUp.objects.filter(is_subscribed=True).values_list('name', 'email')
         return JsonResponse({
             'subject': 'The New God video drops this Friday',
+            'body_preview': 'I am also going back through older videos',
             'total': subscribers.count(),
             'subscribers': [{'name': n, 'email': e} for n, e in subscribers]
         })
