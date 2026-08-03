@@ -253,12 +253,11 @@ class SendMassEmailView(View):
         </td></tr>
         <tr><td style="padding:40px 30px;color:#111111;font-family:Verdana,Arial,sans-serif;font-size:16px;line-height:1.8;">
           <p style="margin:0 0 25px 0;">The music video for <strong>&ldquo;New God&rdquo;</strong> drops this <strong>Friday, August 7th</strong>.</p>
-          <p style="margin:0 0 25px 0;">This song took a long time to get right. It went through more versions than I can count, and I held onto it longer than I probably should have &mdash; because I needed it to be exactly what it was supposed to be. The video is an extension of that same intention. I am proud of this one.</p>
           <p style="margin:0 0 25px 0;">If you have not listened yet, &ldquo;New God&rdquo; is streaming everywhere right now. Give it a listen before the video drops.</p>
           <p style="margin:0 0 25px 0;text-align:center;">
             <a href="{listen_url}" style="display:inline-block;background-color:#111111;color:#ffffff;padding:14px 40px;font-size:14px;font-weight:bold;text-decoration:none;border-radius:4px;letter-spacing:2px;text-transform:uppercase;font-family:Verdana,Arial,sans-serif;">LISTEN NOW</a>
           </p>
-          <p style="margin:0 0 25px 0;">One more thing &mdash; I am going back through older videos and giving them a proper push. There is music I have made that deserves a wider audience than it got the first time around. I will be sharing those with you over the coming weeks. Keep an eye out.</p>
+          <p style="margin:0 0 25px 0;">I am also going back through older videos and giving them a proper push. There is music I have made that deserves a wider audience than it got the first time around. I will be sharing those with you over the coming weeks. Keep an eye out.</p>
           <p style="margin:0;">Thank you for being here.</p>
         </td></tr>
         <tr><td style="padding:30px;text-align:center;background-color:#ebebeb;border-top:2px solid #111111;">
