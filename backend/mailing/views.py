@@ -206,7 +206,7 @@ class SendMassEmailView(View):
             return JsonResponse({'error': 'Unauthorized'}, status=403)
         subscribers = SignUp.objects.filter(is_subscribed=True).values_list('name', 'email')
         return JsonResponse({
-            'subject': 'New God drops tomorrow — pre-save it today',
+            'subject': 'The New God video drops this Friday',
             'total': subscribers.count(),
             'subscribers': [{'name': n, 'email': e} for n, e in subscribers]
         })
@@ -223,8 +223,8 @@ class SendMassEmailView(View):
             body = {}
         test_email = body.get('test_email', '')
 
-        presave_url = "https://link.ghostpavilion.com/new-god"
-        subject = "New God drops tomorrow — pre-save it today"
+        listen_url = "https://link.ghostpavilion.com/new-god"
+        subject = "The New God video drops this Friday"
 
         if test_email:
             from collections import namedtuple
@@ -252,14 +252,13 @@ class SendMassEmailView(View):
           <h1 style="margin:0;color:#ffffff;font-size:36px;font-weight:bold;letter-spacing:4px;text-transform:uppercase;font-family:'Impact','Arial Black',Verdana,sans-serif;">GHOST PAVILION</h1>
         </td></tr>
         <tr><td style="padding:40px 30px;color:#111111;font-family:Verdana,Arial,sans-serif;font-size:16px;line-height:1.8;">
-          <p style="margin:0 0 25px 0;">This is it. <strong>&ldquo;New God&rdquo;</strong> drops tomorrow, <strong>July 17th</strong>.</p>
-          <p style="margin:0 0 25px 0;">Today is the last day to pre-save it, and I am asking you to do that right now.</p>
-          <p style="margin:0 0 25px 0;">When you pre-save, the song lands in your library the moment it goes live. That means streams on day one. For an independent artist, those first 24-hour numbers are everything &mdash; they are what the algorithms use to decide whether to push a song to new listeners. Every pre-save directly affects that reach.</p>
-          <p style="margin:0 0 25px 0;">There are no labels, no promo budgets, no machine pushing this forward. Just the music and the people who show up. You are those people.</p>
-          <p style="margin:0 0 25px 0;">It takes less than a minute. Tap the button, pick your platform, and you are done.</p>
+          <p style="margin:0 0 25px 0;">The music video for <strong>&ldquo;New God&rdquo;</strong> drops this <strong>Friday, August 7th</strong>.</p>
+          <p style="margin:0 0 25px 0;">This song took a long time to get right. It went through more versions than I can count, and I held onto it longer than I probably should have &mdash; because I needed it to be exactly what it was supposed to be. The video is an extension of that same intention. I am proud of this one.</p>
+          <p style="margin:0 0 25px 0;">If you have not listened yet, &ldquo;New God&rdquo; is streaming everywhere right now. Give it a listen before the video drops.</p>
           <p style="margin:0 0 25px 0;text-align:center;">
-            <a href="{presave_url}" style="display:inline-block;background-color:#111111;color:#ffffff;padding:14px 40px;font-size:14px;font-weight:bold;text-decoration:none;border-radius:4px;letter-spacing:2px;text-transform:uppercase;font-family:Verdana,Arial,sans-serif;">PRE-SAVE NOW</a>
+            <a href="{listen_url}" style="display:inline-block;background-color:#111111;color:#ffffff;padding:14px 40px;font-size:14px;font-weight:bold;text-decoration:none;border-radius:4px;letter-spacing:2px;text-transform:uppercase;font-family:Verdana,Arial,sans-serif;">LISTEN NOW</a>
           </p>
+          <p style="margin:0 0 25px 0;">One more thing &mdash; I am going back through older videos and giving them a proper push. There is music I have made that deserves a wider audience than it got the first time around. I will be sharing those with you over the coming weeks. Keep an eye out.</p>
           <p style="margin:0;">Thank you for being here.</p>
         </td></tr>
         <tr><td style="padding:30px;text-align:center;background-color:#ebebeb;border-top:2px solid #111111;">
