@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import "./WatchPage.css";
 
 const videos = [
+  { title: "newgod", src: "https://www.youtube.com/embed/8pbU6w0hJAE" },
   { title: "hidefromitall", src: "https://www.youtube.com/embed/eidcX0uXwxM" },
   { title: "nowaytolove", src: "https://www.youtube.com/embed/5Sdu-ANN16Q" },
   { title: "allalong", src: "https://www.youtube.com/embed/tjZYOAoTwCg" },
