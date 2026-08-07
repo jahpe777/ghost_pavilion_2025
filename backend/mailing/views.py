@@ -206,8 +206,8 @@ class SendMassEmailView(View):
             return JsonResponse({'error': 'Unauthorized'}, status=403)
         subscribers = SignUp.objects.filter(is_subscribed=True).values_list('name', 'email')
         return JsonResponse({
-            'subject': 'The New God video drops this Friday',
-            'body_preview': 'I am also going back through older videos',
+            'subject': 'New God — watch it now',
+            'body_preview': 'The New God music video is out today',
             'total': subscribers.count(),
             'subscribers': [{'name': n, 'email': e} for n, e in subscribers]
         })
@@ -224,8 +224,8 @@ class SendMassEmailView(View):
             body = {}
         test_email = body.get('test_email', '')
 
-        listen_url = "https://link.ghostpavilion.com/new-god"
-        subject = "The New God video drops this Friday"
+        video_url = "https://www.youtube.com/watch?v=8pbU6w0hJAE"
+        subject = "New God — watch it now"
 
         if test_email:
             from collections import namedtuple
@@ -253,13 +253,11 @@ class SendMassEmailView(View):
           <h1 style="margin:0;color:#ffffff;font-size:36px;font-weight:bold;letter-spacing:4px;text-transform:uppercase;font-family:'Impact','Arial Black',Verdana,sans-serif;">GHOST PAVILION</h1>
         </td></tr>
         <tr><td style="padding:40px 30px;color:#111111;font-family:Verdana,Arial,sans-serif;font-size:16px;line-height:1.8;">
-          <p style="margin:0 0 25px 0;">The music video for <strong>&ldquo;New God&rdquo;</strong> drops this <strong>Friday, August 7th</strong>.</p>
-          <p style="margin:0 0 25px 0;">If you have not listened yet, &ldquo;New God&rdquo; is streaming everywhere right now. Give it a listen before the video drops.</p>
+          <p style="margin:0 0 25px 0;">The music video for <strong>&ldquo;New God&rdquo;</strong> is out today.</p>
+          <p style="margin:0 0 25px 0;">Go watch it now.</p>
           <p style="margin:0 0 25px 0;text-align:center;">
-            <a href="{listen_url}" style="display:inline-block;background-color:#111111;color:#ffffff;padding:14px 40px;font-size:14px;font-weight:bold;text-decoration:none;border-radius:4px;letter-spacing:2px;text-transform:uppercase;font-family:Verdana,Arial,sans-serif;">LISTEN NOW</a>
+            <a href="{video_url}" style="display:inline-block;background-color:#111111;color:#ffffff;padding:14px 40px;font-size:14px;font-weight:bold;text-decoration:none;border-radius:4px;letter-spacing:2px;text-transform:uppercase;font-family:Verdana,Arial,sans-serif;">WATCH NOW</a>
           </p>
-          <p style="margin:0 0 25px 0;">I am also going back through older videos and giving them a proper push. I will be sharing those with you over the coming weeks. Keep an eye out.</p>
-          <p style="margin:0 0 25px 0;">You will receive another email from me on Friday with the video link. Watch for it.</p>
           <p style="margin:0;">Thank you for being here.</p>
         </td></tr>
         <tr><td style="padding:30px;text-align:center;background-color:#ebebeb;border-top:2px solid #111111;">
