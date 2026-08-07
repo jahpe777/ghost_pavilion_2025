@@ -3,6 +3,13 @@ import "./ListenPage.css";
 
 const bandcampEmbeds = [
   {
+    title: "new-god",
+    src: "https://bandcamp.com/EmbeddedPlayer/track=1133282817/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/transparent=true/",
+    link: "https://ghostpavilion.bandcamp.com/track/new-god",
+    text: "New God by Ghost Pavilion",
+    type: "track",
+  },
+  {
     title: "hide-from-it-all",
     src: "https://bandcamp.com/EmbeddedPlayer/track=447394841/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/transparent=true/",
     link: "https://ghostpavilion.bandcamp.com/track/hide-from-it-all",
