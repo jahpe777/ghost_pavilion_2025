@@ -253,12 +253,12 @@ class SendMassEmailView(View):
           <h1 style="margin:0;color:#ffffff;font-size:36px;font-weight:bold;letter-spacing:4px;text-transform:uppercase;font-family:'Impact','Arial Black',Verdana,sans-serif;">GHOST PAVILION</h1>
         </td></tr>
         <tr><td style="padding:40px 30px;color:#111111;font-family:Verdana,Arial,sans-serif;font-size:16px;line-height:1.8;text-align:center;">
-          <p style="margin:0 0 25px 0;">The music video for <strong>&ldquo;New God&rdquo;</strong> is out today.</p>
-          <p style="margin:0 0 25px 0;">Go watch it now.</p>
-          <p style="margin:0 0 25px 0;">
+          <p style="margin:0 0 25px 0;text-align:center;">The music video for <strong>&ldquo;New God&rdquo;</strong> is out today.</p>
+          <p style="margin:0 0 25px 0;text-align:center;">Go watch it now.</p>
+          <p style="margin:0 0 25px 0;text-align:center;">
             <a href="{video_url}" style="display:inline-block;background-color:#111111;color:#ffffff;padding:14px 40px;font-size:14px;font-weight:bold;text-decoration:none;border-radius:4px;letter-spacing:2px;text-transform:uppercase;font-family:Verdana,Arial,sans-serif;">WATCH NOW</a>
           </p>
-          <p style="margin:0;">Thank you for being here.</p>
+          <p style="margin:0;text-align:center;">Thank you for being here.</p>
         </td></tr>
         <tr><td style="padding:30px;text-align:center;background-color:#ebebeb;border-top:2px solid #111111;">
           <p style="margin:0 0 10px 0;color:#555555;font-size:12px;letter-spacing:1px;font-family:Verdana,Arial,sans-serif;">GHOST PAVILION &copy; 2026</p>
