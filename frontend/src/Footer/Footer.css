@@ -32,14 +32,14 @@
 .icons {
   height: 30px;
   width: 30px;
-  color: #111111;
+  color: #222222;
   transition: color 0.3s ease, filter 0.3s ease;
   will-change: transform;
 }
 
 .icons:hover {
-  color: #333333;
-  filter: drop-shadow(0 0 4px rgba(0, 0, 0, 0.4));
+  color: #222222;
+  filter: drop-shadow(0 0 4px rgba(0, 0, 0, 0.3));
 }
 
 /* On mobile: allow wrapping, slightly reduce size */

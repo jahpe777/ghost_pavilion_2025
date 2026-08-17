@@ -96,19 +96,19 @@ img {
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #ffffff;
-  background-color: #111111;
-  border: 2px solid #111111;
+  background-color: #222222;
+  border: 2px solid #222222;
   border-radius: 50px;
   transition: all 0.3s ease;
   cursor: pointer;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
 }
 
 .listen-now-button:hover {
   background-color: transparent;
-  color: #111111;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  color: #222222;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
 }
 
 @media screen and (max-width: 415px) {
