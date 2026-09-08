@@ -30,7 +30,7 @@ const LandingPage = () => {
         }}
       >
         <a
-          href="https://link.ghostpavilion.com/new-god"
+          href="https://link.ghostpavilion.com/black-armor"
           target="_blank"
           rel="noopener noreferrer"
           className="listen-link"
@@ -40,7 +40,7 @@ const LandingPage = () => {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
-            LISTEN
+            PRESAVE
           </motion.div>
 
           <motion.img
